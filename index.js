@@ -52,7 +52,7 @@
       data: todos,
     });
   });
-  //                     post       http://localhost:3000/todos
+  //day6:   postman:     post       http://localhost:3000/todos
   app.post('/todos', async (req, res) => {
     const { title, completed } = req.body;
   
